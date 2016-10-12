@@ -1,0 +1,2 @@
+# pysideexample
+pyside examples
