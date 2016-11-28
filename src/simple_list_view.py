@@ -27,6 +27,15 @@ class SimpleListModel(QAbstractListModel):
         :param index:
         :type index: `QtCore.QModelIndex`
         :param role:
+        enum Qt::ItemDataRole	Meaning	Type
+        DisplayRole	            text	QString
+        FontRole	            font	QFont
+        BackgroundRole	        brush for the background of the cell	QBrush
+        TextAlignmentRole	    text alignment
+        CheckStateRole	        suppresses checkboxes with QVariant(),
+                                sets checkboxes with Qt::Checked
+                                or Qt::Unchecked
+                                enum Qt::ItemDataRole
         :type role: `Qt.ItemDataRole`
         :return:
         :rtype:

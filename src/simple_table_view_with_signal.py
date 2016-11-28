@@ -1,5 +1,5 @@
 from PySide.QtCore import Qt, QAbstractTableModel, QModelIndex, QTimer, QTime
-from PySide.QtGui import QTableView, QApplication, QColor, QWidget, QVBoxLayout
+from PySide.QtGui import QTableView, QApplication, QWidget, QVBoxLayout
 
 import sys
 
